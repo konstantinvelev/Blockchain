@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+.header {
+  text-align: center;
+}
+
+.components{
+  display: flex;
+}
+
+.main {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+  width: 600px;
+  margin: 50px;
+}
+
+.config{
+  background-color: rgb(255, 248, 239);
+  padding: 20px 15px 20px 70px;
+  border: 2px solid rgb(66, 110, 0);
+  border-radius: 10px;
+  width: 30vw;
+}
+
+.transaction{
+  background-color: rgb(94, 225, 242);
+  padding: 15px;
+  border: 2px solid rgb(66, 110, 0);
+  border-radius: 10px;
+}
+
+/* .config > form {
+  display: grid;
+  grid-template-rows: 2fr auto 1fr;
+  row-gap: 20px;
+} */
+
+.params {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+}
+
+.pairs {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 2px;
+}
+
+.pairs > label {
+  text-align: left;
+}
+
+.pairs > input {
+  margin-bottom: 15px;
+}
+
+input {
+  height: 30px;
+}
+
+select {
+  height: 40px;
+  color: rgb(36, 36, 36);
+  background-color: rgb(245, 245, 245);
+}
+
+button {
+  width: 130px;
+  background-color: rgb(172, 133, 60);
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgb(172, 133, 60);
+  background-color: white;
+}
+
+.nasted-input{
+  height: 30px;
+  width: 27vw;
+}
+
+hr{
+  margin-top: 2rem;
+}
+
